@@ -1,0 +1,127 @@
+#ratingtable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#ratingtable td,
+#ratingtable th {
+    padding: 8px;
+}
+
+
+/* */
+
+#orderFoodtable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#orderFoodtable td {
+    border: 1px solid #bbbbbb;
+    text-align: left;
+    padding: 8px;
+}
+
+#orderFoodtable th {
+    border: 1px solid #bbbbbb;
+    text-align: center;
+    padding: 8px;
+}
+
+#orderFoodtable tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+/* */
+
+#foodItemtable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#foodItemtable td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+#foodItemtable th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+
+/* */
+
+#deliveryordertable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#deliveryordertable td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+#deliveryordertable th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+
+/* */
+
+#deliverFoodtable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#deliverFoodtable td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+#deliverFoodtable th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+
+/* */
+
+.rating {
+    position: inline;
+}
+
+.rating span {
+    float: right;
+    position: relative;
+}
+
+.rating span input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+}
+
+.rating span:hover~span,
+.rating span:hover,
+.rating span.checked,
+.rating span.checked~span {
+    color: #F90;
+}
+
+p span.checked {
+    color: orange;
+}

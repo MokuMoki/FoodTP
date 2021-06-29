@@ -1,0 +1,47 @@
+.gallery-title {
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+
+.filter-button {
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 5px 10px 5px;
+}
+
+.btn-default:active .filter-button:active {
+    background-color: #42B32F;
+    color: white;
+}
+
+.gallery_product {
+    margin-bottom: 30px;
+}
+
+.image_box {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.image_inner {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
