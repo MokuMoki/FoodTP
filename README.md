@@ -1,2 +1,2 @@
 # FoodTP
-My project files for Web Development (WDT) individual assignment.
+This git project contains the files for my Web Development (WDT) individual assignment.
